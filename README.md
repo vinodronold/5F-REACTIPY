@@ -19,5 +19,6 @@
 
 ## Commands
 
-- 
+- python3 -m venv fivefrets
+- pip install django djangorestframework
 
