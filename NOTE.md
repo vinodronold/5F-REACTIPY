@@ -33,7 +33,8 @@ chmod +x /usr/local/bin/docker-compose
 ~~~~
 dckr build -t "psql01" .
 dckr run --name db01 -e POSTGRES_PASSWORD=fivefrets -d psql01
-~~~~                                                     (IMAGE_NAME)
+                                                     (IMAGE_NAME)
+~~~~
 ### TEST DB
 ~~~~
 dckr run -it --rm --link db01:postgres postgres psql -h postgres -U fivefrets
