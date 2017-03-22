@@ -62,8 +62,9 @@ rm -rf ~/.local/share/Trash/*
 
 ## DIGITAL OCEAN:
 
-non-root user:
---------------
+non-root user
+~~~~
 adduser fivefrets
 groups fivefrets
 usermod -aG sudo fivefrets
+~~~~
